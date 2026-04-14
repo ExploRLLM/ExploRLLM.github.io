@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="ExploRLLM: Guiding Exploration in Reinforcement Learning with Large Language Models ">
+    content="ExploRLLM: Guiding Exploration in Reinforcement Learning with Large Language Models ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ExploRLLM: Guiding Exploration in Reinforcement Learning with Large Language Models </title>
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/icon.png">
 
@@ -25,9 +24,10 @@
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
 </head>
+
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
@@ -48,204 +48,222 @@
             <a class="navbar-item" href="https://askdagger.github.io">
               ASkDAgger
             </a>
+            <a class="navbar-item" href="https://llm-tale.github.io">
+              LLM-TALE
+            </a>
           </div>
         </div>
       </div>
-  
+
     </div>
   </nav>
 
-<section class="hero">
-  <div class="hero-body">
+  <section class="section" style="padding: 1rem 1.5rem 0;">
     <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">ExploRLLM: Guiding Exploration in Reinforcement Learning with Large Language Models</h1>
-          <h3 class="title is-4 publication-authors"><a target="_blank" href="https://2025.ieee-icra.org/">ICRA 2025</a></h3>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://www.linkedin.com/in/runyu-ma-833bba256/">Runyu Ma</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://www.linkedin.com/in/jelle-luijkx/">Jelle Luijkx</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://www.linkedin.com/in/zlatanajanovic/">Zlatan Ajanović</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://jenskober.de/">Jens Kober</a><sup>1</sup>
-            </span>
-          </div>
+      <div class="notification is-info is-light" style="border-left: 4px solid #3273dc; border-radius: 6px;">
+        <strong>Follow-up work:</strong> Our new work <strong><a href="https://llm-tale.github.io"
+            target="_blank">LLM-TALE</a></strong>
+        has been accepted at <strong>ICRA 2026</strong>! LLM-TALE extends this line of research with code available.
+        Check it out at <a href="https://llm-tale.github.io" target="_blank">llm-tale.github.io</a>.
+      </div>
+    </div>
+  </section>
 
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Delft University of Technology</span>
-            <span class="author-block"><sup>2</sup>RWTH Aachen University</span>
-          </div>
-
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
           <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- PDF Link. -->
-              <span class="link-block">
-                <a href="https://arxiv.org/pdf/2403.09583"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
+            <h1 class="title is-1 publication-title">ExploRLLM: Guiding Exploration in Reinforcement Learning with Large
+              Language Models</h1>
+            <h3 class="title is-4 publication-authors"><a target="_blank" href="https://2025.ieee-icra.org/">ICRA
+                2025</a></h3>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/runyu-ma-833bba256/">Runyu Ma</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/jelle-luijkx/">Jelle Luijkx</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/zlatanajanovic/">Zlatan Ajanović</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="http://jenskober.de/">Jens Kober</a><sup>1</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Delft University of Technology</span>
+              <span class="author-block"><sup>2</sup>RWTH Aachen University</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2403.09583" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
                       <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>PDF</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2403.09583" 
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
+                    </span>
+                    <span>PDF</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2403.09583" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
                       <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              </span>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
+
+
+
+
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <video poster="" id="mask" autoplay controls muted loop playsinline width="75%">
+        <source src="./static/videos/explorllm.mp4" type="video/mp4">
+      </video>
+    </div>
   </div>
-</section>
 
+  <section class="section">
+    <div class="container is-max-desktop">
 
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              In robot manipulation tasks with large observation and action spaces, reinforcement learning (RL) often
+              suffers from low sample efficiency and uncertain convergence.
+              As an alternative, foundation models have shown promise in zero-shot and few-shot applications. However,
+              these models can be unreliable due to their limited reasoning and challenges in understanding physical and
+              spatial contexts.
+              This paper introduces ExploRLLM, a method that combines the commonsense reasoning of foundation models
+              with the experiential learning capabilities of RL.
+              We leverage the strengths of both paradigms by using foundation models to obtain a base policy, an
+              efficient representation, and an exploration policy.
+              A residual RL agent learns when and how to deviate from the base policy while its exploration is guided by
+              the exploration policy.
+              In table-top manipulation experiments, we demonstrate that ExploRLLM outperforms both baseline foundation
+              model policies and baseline RL policies.
+              Additionally, we show that this policy can be transferred to the real world without further training.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
 
+  <section class="section">
+    <!--/ ExploRLLM. -->
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <!-- Visual Effects. -->
+        <div class="column">
+          <div class="content">
+            <h2 class="title is-3">ExploRLLM</h2>
+            <p>
+              ExploRLLM is a novel methodology that integrates the advantages of reinforcement learning with knowledge
+              from foundational models.
+              Our approach involves a reinforcement learning agent, equipped with a residual action space and
+              observation space derived from affordances recognized by foundation models.
+              We leverage actions recommended by large language models to guide the exploration process, increasing the
+              likelihood of visiting meaningful states.
+            </p>
+            <img src="./static/images/overview.png" class="center" width="50%"
+              alt="Interpolate start reference image." />
+            <p>
+              For the creation of plans in robotic manipulation tasks, prior research often prompts LLMs on every step
+              to generate plans.
+              However, this method of frequent LLM invocation during the training phase is highly resource-intensive,
+              incurring significant time and financial costs due to the numerous iterations required to train a single
+              RL agent.
+              Drawing inspiration from Code-as-Policy, our methodology employs the LLM to hierarchically generate
+              language model programs, which are then executed iteratively during the training phase as exploratory
+              actions, enhancing efficiency and resource utilization.
+            </p>
+            <img src="./static/images/overview_detailed.png" class="methodology"
+              alt="Interpolate start reference image." />
+          </div>
+        </div>
+      </div>
 
-<div class="columns is-centered has-text-centered">
-<div class="column is-four-fifths">
-<video poster="" id="mask" autoplay controls muted loop playsinline width="75%" >
-  <source src="./static/videos/explorllm.mp4"
-          type="video/mp4">
-</video>
-</div>
-</div>
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column">
+            <div class="content">
+              <h2 class="title is-3">Results</h2>
+              <p>
+                Experiments show that the exploration method significantly reduces RL convergence time.
+                Additionally, ExploRLLM outperforms policies based solely on the LLM and VLM.
+              </p>
+              <p>
+                Since the VLM has already extracted a reduced observation space, the RL agent in the simulation faces
+                fewer distractions from real-world noise.
+                ExploRLLM also shows promising results in zero-shot applications with foundational models.
+              </p>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            In robot manipulation tasks with large observation and action spaces, reinforcement learning (RL) often suffers from low sample efficiency and uncertain convergence.
-            As an alternative, foundation models have shown promise in zero-shot and few-shot applications. However, these models can be unreliable due to their limited reasoning and challenges in understanding physical and spatial contexts.
-            This paper introduces ExploRLLM, a method that combines the commonsense reasoning of foundation models with the experiential learning capabilities of RL.
-            We leverage the strengths of both paradigms by using foundation models to obtain a base policy, an efficient representation, and an exploration policy.
-            A residual RL agent learns when and how to deviate from the base policy while its exploration is guided by the exploration policy.
-            In table-top manipulation experiments, we demonstrate that ExploRLLM outperforms both baseline foundation model policies and baseline RL policies.
-            Additionally, we show that this policy can be transferred to the real world without further training.
-          </p>
+            </div>
+          </div>
+
+        </div>
+  </section>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-real">
+            <video poster="" id="real" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/real.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-sim">
+            <video poster="" id="sim" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/sim.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item real-robot-experiments-pic">
+            <img src="./static/images/robot.png" class="methodology" alt="Real-World Setup" />
+          </div>
+          <div class="item plot-sh">
+            <img src="./static/images/results_sh.png" class="methodology" alt="Training curves short-horizon task" />
+          </div>
+          <div class="item plot-lh">
+            <img src="./static/images/results_lh.png" class="methodology" alt="Training curves long-horizon task" />
+          </div>
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
-  </div>
-</section>
+  </section>
 
-<section class="section">
-  <!--/ ExploRLLM. -->
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">ExploRLLM</h2>
-          <p>
-            ExploRLLM is a novel methodology that integrates the advantages of reinforcement learning with knowledge from foundational models.
-            Our approach involves a reinforcement learning agent, equipped with a residual action space and observation space derived from affordances recognized by foundation models. 
-            We leverage actions recommended by large language models to guide the exploration process, increasing the likelihood of visiting meaningful states.
-          </p>
-          <img src="./static/images/overview.png"
-            class="center"
-            width="50%"
-            alt="Interpolate start reference image."/>
-          <p>
-            For the creation of plans in robotic manipulation tasks, prior research often prompts LLMs on every step to generate plans.
-            However, this method of frequent LLM invocation during the training phase is highly resource-intensive, incurring significant time and financial costs due to the numerous iterations required to train a single RL agent. 
-            Drawing inspiration from Code-as-Policy, our methodology employs the LLM to hierarchically generate language model programs, which are then executed iteratively during the training phase as exploratory actions, enhancing efficiency and resource utilization.
-          </p>
-          <img src="./static/images/overview_detailed.png"
-                 class="methodology"
-                 alt="Interpolate start reference image."/>
-        </div>
-      </div>
-  </div>
-
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Results</h2>
-          <p>
-            Experiments show that the exploration method significantly reduces RL convergence time.
-            Additionally, ExploRLLM outperforms policies based solely on the LLM and VLM.
-          </p>
-          <p>
-            Since the VLM has already extracted a reduced observation space, the RL agent in the simulation faces fewer distractions from real-world noise.
-            ExploRLLM also shows promising results in zero-shot applications with foundational models.
-          </p>
-
-        </div>
-      </div>
-
-  </div>
-</section>
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
+  <footer class="footer">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-real">
-          <video poster="" id="real" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/real.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-sim">
-          <video poster="" id="sim" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/sim.mp4"
-                    type="video/mp4">
-          </video>
-        </div> 
-        <div class="item real-robot-experiments-pic">
-          <img src="./static/images/robot.png"
-                 class="methodology"
-                 alt="Real-World Setup"/>
-        </div> 
-        <div class="item plot-sh">
-          <img src="./static/images/results_sh.png"
-                 class="methodology"
-                 alt="Training curves short-horizon task"/>
-        </div>
-        <div class="item plot-lh">
-          <img src="./static/images/results_lh.png"
-                 class="methodology"
-                 alt="Training curves long-horizon task"/>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              Website template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a> made by
+              the <a href="https://github.com/keunhong">Keunhong Park</a>.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            Website template borrowed from <a
-            href="https://github.com/nerfies/nerfies.github.io">nerfies</a> made by the <a
-            href="https://github.com/keunhong">Keunhong Park</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+  </footer>
 
 </body>
+
 </html>
